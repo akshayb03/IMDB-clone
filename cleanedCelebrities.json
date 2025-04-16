@@ -1,0 +1,1406 @@
+[
+  {
+    "personality_id": "nm0000151",
+    "name": "Tim Robbins",
+    "birthday": "1958-10-16",
+    "movies": [
+      "tt0111161",
+      "tt0120689"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTI1OTYxNzAxOF5BMl5BanBnXkFtZTYwNTE5ODI4._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000209",
+    "name": "Morgan Freeman",
+    "birthday": "1937-06-01",
+    "movies": [
+      "tt0111161",
+      "tt0120689",
+      "tt0119217"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc0MDMyMzI2OF5BMl5BanBnXkFtZTcwMzM2OTk1MQ@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000349",
+    "name": "Bob Gunton",
+    "birthday": "1945-11-15",
+    "movies": [
+      "tt0111161"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjEwMjQ3ODgxOV5BMl5BanBnXkFtZTgwNjY4OTY4NTM@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001104",
+    "name": "Frank Darabont",
+    "birthday": "1959-01-28",
+    "movies": [
+      "tt0111161",
+      "tt0120689"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTcyNTEyOTY0M15BMl5BanBnXkFtZTgwOTAyNzU3MDI@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000008",
+    "name": "Marlon Brando",
+    "birthday": "1924-04-03",
+    "movies": [
+      "tt0068646",
+      "tt0071562"
+    ],
+    "death_year": "2004-07-01",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTg3MDYyMDE5OF5BMl5BanBnXkFtZTcwNjgyNTEzNA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000199",
+    "name": "Al Pacino",
+    "birthday": "1940-04-25",
+    "movies": [
+      "tt0068646",
+      "tt0071562",
+      "tt0110413"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQzMzg1ODAyNl5BMl5BanBnXkFtZTYwMjAxODQ1._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001001",
+    "name": "James Caan",
+    "birthday": "1940-03-26",
+    "movies": [
+      "tt0068646",
+      "tt0071562"
+    ],
+    "death_year": "2022-07-06",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTIyOTc0MjE5NV5BMl5BanBnXkFtZTYwNzQ1Nzg4._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000338",
+    "name": "Francis Ford Coppola",
+    "birthday": "1939-04-07",
+    "movies": [
+      "tt0068646",
+      "tt0071562",
+      "tt0078788"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTM0NDQxMjI1OV5BMl5BanBnXkFtZTcwNzAyNTA4Nw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000288",
+    "name": "Christian Bale",
+    "birthday": "1974-01-30",
+    "movies": [
+      "tt0468569",
+      "tt1345836",
+      "tt0482571"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTkxMzk4MjQ4MF5BMl5BanBnXkFtZTcwMzExODQxOA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0005132",
+    "name": "Heath Ledger",
+    "birthday": "1979-04-04",
+    "movies": [
+      "tt0468569"
+    ],
+    "death_year": "2008-01-22",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTI2NTY0NzA4MF5BMl5BanBnXkFtZTYwMjE1MDE0._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001173",
+    "name": "Aaron Eckhart",
+    "birthday": "1968-03-12",
+    "movies": [
+      "tt0468569"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTU0NjQzNjI3MV5BMl5BanBnXkFtZTcwODU0NDczMw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0634240",
+    "name": "Christopher Nolan",
+    "birthday": "1970-07-30",
+    "movies": [
+      "tt0468569",
+      "tt1375666",
+      "tt0482571"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BNjE3NDQyOTYyMV5BMl5BanBnXkFtZTcwODcyODU2Mw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000020",
+    "name": "Henry Fonda",
+    "birthday": "1905-05-16",
+    "movies": [
+      "tt0050083"
+    ],
+    "death_year": "1982-08-12",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTFjNjQwMDA1NV5BMl5BanBnXkFtZTcwMDcxMDk5NA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0002011",
+    "name": "Lee J. Cobb",
+    "birthday": "1911-12-08",
+    "movies": [
+      "tt0050083"
+    ],
+    "death_year": "1976-02-11",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ0NDk5MTkzOV5BMl5BanBnXkFtZTcwNDQwMjU1MQ@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000842",
+    "name": "Martin Balsam",
+    "birthday": "1919-11-04",
+    "movies": [
+      "tt0050083"
+    ],
+    "death_year": "1996-02-13",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQ3MzA1Nl5BMl5BanBnXkFtZTcwODg0NDk1NA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0377416",
+    "name": "Henry Fonda",
+    "birthday": "1905-05-16",
+    "movies": [
+      "tt0050083"
+    ],
+    "death_year": "1982-08-12",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTFjNjQwMDA1NV5BMl5BanBnXkFtZTcwMDcxMDk5NA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000158",
+    "name": "Liam Neeson",
+    "birthday": "1952-06-07",
+    "movies": [
+      "tt0108052",
+      "tt0109830"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjA1MTQ3NzU1MV5BMl5BanBnXkFtZTgwMDE3Mjg0MzE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001426",
+    "name": "Ben Kingsley",
+    "birthday": "1943-12-31",
+    "movies": [
+      "tt0108052",
+      "tt1130884"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwNDI@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000323",
+    "name": "Ralph Fiennes",
+    "birthday": "1962-12-22",
+    "movies": [
+      "tt0108052",
+      "tt1375666",
+      "tt0482571"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMzI0Nzc0NDA5MV5BMl5BanBnXkFtZTcwODM4NDg0Nw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000229",
+    "name": "Steven Spielberg",
+    "birthday": "1946-12-18",
+    "movies": [
+      "tt0108052",
+      "tt0120815",
+      "tt0107290"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NjAzNzE1MV5BMl5BanBnXkFtZTYwNTk0ODc0._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000704",
+    "name": "Elijah Wood",
+    "birthday": "1981-01-28",
+    "movies": [
+      "tt0120737",
+      "tt0167260",
+      "tt0167261"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTM0NDIxMzQ5OF5BMl5BanBnXkFtZTcwNzAyNTA4Nw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0005212",
+    "name": "Ian McKellen",
+    "birthday": "1939-05-25",
+    "movies": [
+      "tt0120737",
+      "tt0167260",
+      "tt0167261"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ2MjgyNjk3MV5BMl5BanBnXkFtZTgwNTc3NTQxMjE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0089217",
+    "name": "Viggo Mortensen",
+    "birthday": "1958-10-20",
+    "movies": [
+      "tt0120737",
+      "tt0167260",
+      "tt0167261"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ3NDExNTU2OV5BMl5BanBnXkFtZTcwMjI5OTM0OA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001392",
+    "name": "Peter Jackson",
+    "birthday": "1961-10-31",
+    "movies": [
+      "tt0120737",
+      "tt0167260",
+      "tt0167261"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1MzQ3NjA2OV5BMl5BanBnXkFtZTcwNTExOTA5OA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000237",
+    "name": "John Travolta",
+    "birthday": "1954-02-18",
+    "movies": [
+      "tt0110912"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTMyMjIxMTQ2NV5BMl5BanBnXkFtZTYwNDQ0NTE1._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000168",
+    "name": "Samuel L. Jackson",
+    "birthday": "1948-12-21",
+    "movies": [
+      "tt0110912",
+      "tt1853728"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ1NTQwMTYxNl5BMl5BanBnXkFtZTYwMjA1MzY1._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000619",
+    "name": "Uma Thurman",
+    "birthday": "1970-04-29",
+    "movies": [
+      "tt0110912"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjMxNzk1MTQyMl5BMl5BanBnXkFtZTgwMDIzMDEyMTE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000233",
+    "name": "Quentin Tarantino",
+    "birthday": "1963-03-27",
+    "movies": [
+      "tt0110912",
+      "tt1853728",
+      "nm0361748"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTgyMjI3ODA5Nl5BMl5BanBnXkFtZTcwNzY2MDk4OA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000142",
+    "name": "Clint Eastwood",
+    "birthday": "1930-05-31",
+    "movies": [
+      "tt0060196",
+      "nm0064116"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTg3MDc0MjY0OV5BMl5BanBnXkFtZTcwNzU1MDAxOA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0004306",
+    "name": "Lee Van Cleef",
+    "birthday": "1925-01-09",
+    "movies": [
+      "tt0060196"
+    ],
+    "death_year": "1989-12-16",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQ3MzA1Nl5BMl5BanBnXkFtZTcwODg0NDk1NA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001467",
+    "name": "Eli Wallach",
+    "birthday": "1915-12-07",
+    "movies": [
+      "tt0060196"
+    ],
+    "death_year": "2014-06-24",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NzA4NDgwN15BMl5BanBnXkFtZTcwNTUzMjU1Mw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0003593",
+    "name": "Sergio Leone",
+    "birthday": "1929-01-03",
+    "movies": [
+      "tt0060196",
+      "nm0064116",
+      "nm0087843"
+    ],
+    "death_year": "1989-04-30",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTgyMjI3ODA5Nl5BMl5BanBnXkFtZTcwNzY2MDk4OA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000093",
+    "name": "Brad Pitt",
+    "birthday": "1963-12-18",
+    "movies": [
+      "tt0137523",
+      "nm0114369",
+      "nm0361748"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001570",
+    "name": "Edward Norton",
+    "birthday": "1969-08-18",
+    "movies": [
+      "tt0137523",
+      "nm0120586"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQzOTk1OTIyOV5BMl5BanBnXkFtZTYwNTgzOTk4._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000489",
+    "name": "Helena Bonham Carter",
+    "birthday": "1966-05-26",
+    "movies": [
+      "tt0137523"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTU0ODM5OTI3N15BMl5BanBnXkFtZTcwMzMzNjM0Nw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000399",
+    "name": "David Fincher",
+    "birthday": "1962-08-28",
+    "movies": [
+      "tt0137523",
+      "nm0114369"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY0MDA5NzQyMl5BMl5BanBnXkFtZTcwNDA0MDY5Nw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000705",
+    "name": "Robin Wright",
+    "birthday": "1966-04-08",
+    "movies": [
+      "tt0109830"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwNTg5MjM0Mg@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000398",
+    "name": "Gary Sinise",
+    "birthday": "1955-03-17",
+    "movies": [
+      "tt0109830"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000703",
+    "name": "Robert Zemeckis",
+    "birthday": "1952-05-14",
+    "movies": [
+      "tt0109830"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000138",
+    "name": "Leonardo DiCaprio",
+    "birthday": "1974-11-11",
+    "movies": [
+      "tt1375666",
+      "tt0407887",
+      "tt1130884",
+      "nm1853728"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0362766",
+    "name": "Tom Hardy",
+    "birthday": "1977-09-15",
+    "movies": [
+      "tt1375666",
+      "tt1345836"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ3ODEyNjA4Nl5BMl5BanBnXkFtZTgwMTE4ODMyMjE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000434",
+    "name": "Mark Hamill",
+    "birthday": "1951-09-25",
+    "movies": [
+      "tt0080684",
+      "tt0086190"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BOGY1M2MwOTEtZDIyNi00YjNlLWExYmEtNzBjOGI3N2QzNTg5XkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000148",
+    "name": "Harrison Ford",
+    "birthday": "1942-07-13",
+    "movies": [
+      "tt0080684",
+      "tt0086190",
+      "nm0082971"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY4Mjg0NjIxOV5BMl5BanBnXkFtZTcwMTM2NTI3MQ@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000402",
+    "name": "Carrie Fisher",
+    "birthday": "1956-10-21",
+    "movies": [
+      "tt0080684",
+      "tt0086190"
+    ],
+    "death_year": "2016-12-27",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc5NzI3NzI3NF5BMl5BanBnXkFtZTcwNjk5OTk1NA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000184",
+    "name": "George Lucas",
+    "birthday": "1944-05-14",
+    "movies": [
+      "tt0080684",
+      "tt0086190",
+      "nm0082971"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000206",
+    "name": "Keanu Reeves",
+    "birthday": "1964-09-02",
+    "movies": [
+      "tt0133093",
+      "nm0110413"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BNGJmMWEzOGQtMWZkNS00MGNiLTk5NGEtYzg1YzAyZTgzZTZmXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000401",
+    "name": "Laurence Fishburne",
+    "birthday": "1961-07-30",
+    "movies": [
+      "tt0133093"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc2NjM2MzY0N15BMl5BanBnXkFtZTcwNjI3NzExNw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0005251",
+    "name": "Carrie-Anne Moss",
+    "birthday": "1967-08-21",
+    "movies": [
+      "tt0133093",
+      "nm0209144"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTkzNjEzMzY0M15BMl5BanBnXkFtZTgwODk2NjI5OTE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0905152",
+    "name": "Lana Wachowski",
+    "birthday": "1965-06-21",
+    "movies": [
+      "tt0133093"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000134",
+    "name": "Robert De Niro",
+    "birthday": "1943-08-17",
+    "movies": [
+      "tt0099685",
+      "tt0075314",
+      "nm0087843",
+      "nm0407887"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAwNDU3MzcyOV5BMl5BanBnXkFtZTcwMjc0MTIxMw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000582",
+    "name": "Ray Liotta",
+    "birthday": "1954-12-18",
+    "movies": [
+      "tt0099685"
+    ],
+    "death_year": "2022-05-26",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ0Njc1MjM0OF5BMl5BanBnXkFtZTgwNTY2NTUyMjE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000317",
+    "name": "Joe Pesci",
+    "birthday": "1943-02-09",
+    "movies": [
+      "tt0099685"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTc2MTM2MjQ1OF5BMl5BanBnXkFtZTcwOTI4NzM0NA@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000217",
+    "name": "Martin Scorsese",
+    "birthday": "1942-11-17",
+    "movies": [
+      "tt0099685",
+      "tt0075314",
+      "nm0407887"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTcyNDA4Nzk3N15BMl5BanBnXkFtZTcwNDYzMjMxMw@@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000197",
+    "name": "Jack Nicholson",
+    "birthday": "1937-04-22",
+    "movies": [
+      "tt0073486",
+      "tt0081505",
+      "nm0057012"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTQ3OTY0ODk0M15BMl5BanBnXkFtZTYwNzE4Njc4._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001232",
+    "name": "Louise Fletcher",
+    "birthday": "1934-07-22",
+    "movies": [
+      "tt0073486"
+    ],
+    "death_year": "2022-09-23",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001378",
+    "name": "Danny DeVito",
+    "birthday": "1944-11-17",
+    "movies": [
+      "tt0073486"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001856",
+    "name": "Milos Forman",
+    "birthday": "1932-02-18",
+    "movies": [
+      "tt0073486",
+      "nm0086879"
+    ],
+    "death_year": "2018-04-13",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000228",
+    "name": "Kevin Spacey",
+    "birthday": "1959-07-26",
+    "movies": [
+      "tt0114369",
+      "nm0119488"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000169",
+    "name": "Gwyneth Paltrow",
+    "birthday": "1972-09-27",
+    "movies": [
+      "tt0114369",
+      "nm1853728"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000071",
+    "name": "James Stewart",
+    "birthday": "1908-05-20",
+    "movies": [
+      "tt0038650",
+      "nm0052357",
+      "nm0053125"
+    ],
+    "death_year": "1997-07-02",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001656",
+    "name": "Donna Reed",
+    "birthday": "1921-01-27",
+    "movies": [
+      "tt0038650"
+    ],
+    "death_year": "1986-01-14",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000859",
+    "name": "Lionel Barrymore",
+    "birthday": "1878-04-28",
+    "movies": [
+      "tt0038650"
+    ],
+    "death_year": "1954-11-15",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001379",
+    "name": "Frank Capra",
+    "birthday": "1897-05-18",
+    "movies": [
+      "tt0038650"
+    ],
+    "death_year": "1991-09-03",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001536",
+    "name": "Toshiro Mifune",
+    "birthday": "1920-04-01",
+    "movies": [
+      "tt0047478",
+      "tt0057565"
+    ],
+    "death_year": "1997-12-24",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001537",
+    "name": "Takashi Shimura",
+    "birthday": "1905-03-12",
+    "movies": [
+      "tt0047478"
+    ],
+    "death_year": "1982-02-11",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0591486",
+    "name": "Keiko Tsushima",
+    "birthday": "1926-02-07",
+    "movies": [
+      "tt0047478"
+    ],
+    "death_year": "2012-06-17",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0586281",
+    "name": "Akira Kurosawa",
+    "birthday": "1910-03-23",
+    "movies": [
+      "tt0047478",
+      "tt0057565"
+    ],
+    "death_year": "1998-09-06",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000149",
+    "name": "Jodie Foster",
+    "birthday": "1962-11-19",
+    "movies": [
+      "tt0102926"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000164",
+    "name": "Anthony Hopkins",
+    "birthday": "1937-12-31",
+    "movies": [
+      "tt0102926"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001125",
+    "name": "Scott Glenn",
+    "birthday": "1941-01-26",
+    "movies": [
+      "tt0102926"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001121",
+    "name": "Jonathan Demme",
+    "birthday": "1944-02-22",
+    "movies": [
+      "tt0102926"
+    ],
+    "death_year": "2017-04-26",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1249052",
+    "name": "Alexandre Rodrigues",
+    "birthday": "1983-05-21",
+    "movies": [
+      "tt0317248"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1249053",
+    "name": "Leandro Firmino",
+    "birthday": "1978-06-23",
+    "movies": [
+      "tt0317248"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1249054",
+    "name": "Phellipe Haagensen",
+    "birthday": "1984-03-24",
+    "movies": [
+      "tt0317248"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0002019",
+    "name": "Fernando Meirelles",
+    "birthday": "1955-11-09",
+    "movies": [
+      "tt0317248"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000909",
+    "name": "Roberto Benigni",
+    "birthday": "1952-10-27",
+    "movies": [
+      "tt0118799"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000973",
+    "name": "Nicoletta Braschi",
+    "birthday": "1960-04-19",
+    "movies": [
+      "tt0118799"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000974",
+    "name": "Giorgio Cantarini",
+    "birthday": "1992-04-12",
+    "movies": [
+      "tt0118799"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000354",
+    "name": "Matt Damon",
+    "birthday": "1970-10-08",
+    "movies": [
+      "tt0120815",
+      "tt0119217",
+      "tt1130884"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001745",
+    "name": "Tom Sizemore",
+    "birthday": "1961-11-29",
+    "movies": [
+      "tt0120815"
+    ],
+    "death_year": "2023-03-03",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001587",
+    "name": "Daveigh Chase",
+    "birthday": "1990-07-24",
+    "movies": [
+      "tt0245429"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001588",
+    "name": "Suzanne Pleshette",
+    "birthday": "1937-01-31",
+    "movies": [
+      "tt0245429"
+    ],
+    "death_year": "2008-01-19",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001589",
+    "name": "Miyu Irino",
+    "birthday": "1988-02-19",
+    "movies": [
+      "tt0245429"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0594503",
+    "name": "Hayao Miyazaki",
+    "birthday": "1941-01-05",
+    "movies": [
+      "tt0245429",
+      "tt0119698",
+      "tt0095327"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000190",
+    "name": "Matthew McConaughey",
+    "birthday": "1969-11-04",
+    "movies": [
+      "tt0816692"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0004266",
+    "name": "Anne Hathaway",
+    "birthday": "1982-11-12",
+    "movies": [
+      "tt0816692"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000553",
+    "name": "David Morse",
+    "birthday": "1953-10-11",
+    "movies": [
+      "tt0120689"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001371",
+    "name": "Bonnie Hunt",
+    "birthday": "1961-09-22",
+    "movies": [
+      "tt0120689"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1321655",
+    "name": "Song Kang-ho",
+    "birthday": "1967-01-17",
+    "movies": [
+      "tt6751668"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1321656",
+    "name": "Lee Sun-kyun",
+    "birthday": "1975-03-02",
+    "movies": [
+      "tt6751668"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1321657",
+    "name": "Cho Yeo-jeong",
+    "birthday": "1981-02-10",
+    "movies": [
+      "tt6751668"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1321658",
+    "name": "Bong Joon Ho",
+    "birthday": "1969-09-14",
+    "movies": [
+      "tt6751668"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000614",
+    "name": "Gary Oldman",
+    "birthday": "1958-03-21",
+    "movies": [
+      "tt0110413"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000106",
+    "name": "Luc Besson",
+    "birthday": "1959-03-18",
+    "movies": [
+      "tt0110413"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001538",
+    "name": "Tatsuya Nakadai",
+    "birthday": "1932-12-13",
+    "movies": [
+      "tt0056058"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001539",
+    "name": "Akira Ishihama",
+    "birthday": "1935-05-11",
+    "movies": [
+      "tt0056058"
+    ],
+    "death_year": "2011-12-29",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001540",
+    "name": "Shima Iwashita",
+    "birthday": "1941-02-03",
+    "movies": [
+      "tt0056058"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0004778",
+    "name": "Adrien Brody",
+    "birthday": "1973-04-14",
+    "movies": [
+      "tt0253474"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000545",
+    "name": "Thomas Kretschmann",
+    "birthday": "1962-09-08",
+    "movies": [
+      "tt0253474"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000546",
+    "name": "Frank Finlay",
+    "birthday": "1926-08-06",
+    "movies": [
+      "tt0253474"
+    ],
+    "death_year": "2016-01-30",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0005063",
+    "name": "Roman Polanski",
+    "birthday": "1933-08-18",
+    "movies": [
+      "tt0253474"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000155",
+    "name": "James Earl Jones",
+    "birthday": "1931-01-17",
+    "movies": [
+      "tt0110357"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000115",
+    "name": "Jeremy Irons",
+    "birthday": "1948-09-19",
+    "movies": [
+      "tt0110357"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000166",
+    "name": "Jeff Goldblum",
+    "birthday": "1952-10-22",
+    "movies": [
+      "tt0110357",
+      "tt0107290"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0002355",
+    "name": "Rob Minkoff",
+    "birthday": "1962-08-11",
+    "movies": [
+      "tt0110357"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000321",
+    "name": "Kevin Bacon",
+    "birthday": "1958-07-08",
+    "movies": [
+      "tt0114814",
+      "nm0119488"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000174",
+    "name": "Gabriel Byrne",
+    "birthday": "1950-05-12",
+    "movies": [
+      "tt0114814"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0005064",
+    "name": "Bryan Singer",
+    "birthday": "1965-09-17",
+    "movies": [
+      "tt0114814"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000150",
+    "name": "Michael J. Fox",
+    "birthday": "1961-06-09",
+    "movies": [
+      "tt0088763"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000502",
+    "name": "Christopher Lloyd",
+    "birthday": "1938-10-22",
+    "movies": [
+      "tt0088763"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000670",
+    "name": "Lea Thompson",
+    "birthday": "1961-05-31",
+    "movies": [
+      "tt0088763"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000709",
+    "name": "Robert Zemeckis",
+    "birthday": "1952-05-14",
+    "movies": [
+      "tt0088763"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000216",
+    "name": "Arnold Schwarzenegger",
+    "birthday": "1947-07-30",
+    "movies": [
+      "tt0103064"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000411",
+    "name": "Linda Hamilton",
+    "birthday": "1956-09-26",
+    "movies": [
+      "tt0103064"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000116",
+    "name": "James Cameron",
+    "birthday": "1954-08-16",
+    "movies": [
+      "tt0103064"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000122",
+    "name": "Charlie Chaplin",
+    "birthday": "1889-04-16",
+    "movies": [
+      "tt0027977",
+      "nm0032553",
+      "nm0021749"
+    ],
+    "death_year": "1977-12-25",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0002123",
+    "name": "Paulette Goddard",
+    "birthday": "1910-06-03",
+    "movies": [
+      "tt0027977"
+    ],
+    "death_year": "1990-04-23",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0002124",
+    "name": "Jackie Coogan",
+    "birthday": "1914-10-26",
+    "movies": [
+      "tt0027977"
+    ],
+    "death_year": "1984-03-01",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001463",
+    "name": "Anthony Perkins",
+    "birthday": "1932-04-04",
+    "movies": [
+      "tt0054215"
+    ],
+    "death_year": "1992-09-12",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001055",
+    "name": "Janet Leigh",
+    "birthday": "1927-07-06",
+    "movies": [
+      "tt0054215"
+    ],
+    "death_year": "2004-10-03",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001721",
+    "name": "Vera Miles",
+    "birthday": "1929-08-23",
+    "movies": [
+      "tt0054215"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000033",
+    "name": "Alfred Hitchcock",
+    "birthday": "1899-08-13",
+    "movies": [
+      "tt0054215",
+      "tt0047396",
+      "tt0052357"
+    ],
+    "death_year": "1980-04-29",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000007",
+    "name": "Humphrey Bogart",
+    "birthday": "1899-12-25",
+    "movies": [
+      "tt0034583"
+    ],
+    "death_year": "1957-01-14",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0002134",
+    "name": "Ingrid Bergman",
+    "birthday": "1915-08-29",
+    "movies": [
+      "tt0034583"
+    ],
+    "death_year": "1982-08-29",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001647",
+    "name": "Paul Henreid",
+    "birthday": "1908-01-10",
+    "movies": [
+      "tt0034583"
+    ],
+    "death_year": "1992-03-29",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0943758",
+    "name": "Hal B. Wallis",
+    "birthday": "1898-09-14",
+    "movies": [
+      "tt0034583"
+    ],
+    "death_year": "1986-10-05",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001541",
+    "name": "Tsutomu Tatsumi",
+    "birthday": "1928-12-22",
+    "movies": [
+      "tt0095327"
+    ],
+    "death_year": "2006-08-19",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001542",
+    "name": "Ayano Shiraishi",
+    "birthday": "1939-06-13",
+    "movies": [
+      "tt0095327"
+    ],
+    "death_year": "2018-02-27",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0001543",
+    "name": "Akemi Yamaguchi",
+    "birthday": "1938-11-08",
+    "movies": [
+      "tt0095327"
+    ],
+    "death_year": "2017-01-12",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0004793",
+    "name": "Miles Teller",
+    "birthday": "1987-02-20",
+    "movies": [
+      "tt2582802"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm1886602",
+    "name": "J.K. Simmons",
+    "birthday": "1955-01-09",
+    "movies": [
+      "tt2582802"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0000377",
+    "name": "Paul Reiser",
+    "birthday": "1956-03-30",
+    "movies": [
+      "tt2582802"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  },
+  {
+    "personality_id": "nm0005065",
+    "name": "Damien Chazelle",
+    "birthday": "1985-01-19",
+    "movies": [
+      "tt2582802"
+    ],
+    "death_year": "",
+    "image": "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_.jpg"
+  }
+]
