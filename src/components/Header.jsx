@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/imdb_logo.png";
 
-const Header = () => {
+const Header = ({ onAdminClick }) => {
   return (
     <header className="fixed top-0 left-0 w-full bg-[#1F2937] shadow-md z-50 px-[100px]">
       <div className="mx-auto flex justify-between items-center px-4 py-3">
@@ -10,18 +10,15 @@ const Header = () => {
         </Link>
 
         <nav>
-          <Link
-            to="/"
-            className="text-gray-600 hover:text-black font-medium transition mr-8"
-          >
+          <Link to="/" className="!text-white font-medium mr-8">
             Home
           </Link>
-          <Link
-            to="/admin"
-            className="text-white hover:text-gray-300 font-medium transition"
+          <button
+            onClick={onAdminClick}
+            className="text-white font-medium !bg-transparent !border-none !outline-none"
           >
             Admin
-          </Link>
+          </button>
         </nav>
       </div>
     </header>

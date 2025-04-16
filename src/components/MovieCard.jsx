@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { DEFAULT_IMAGE_URL } from "../../utils/constants";
 
 const MovieCard = ({ movie }) => {
   const navigate = useNavigate();
@@ -13,15 +14,11 @@ const MovieCard = ({ movie }) => {
         }}
       >
         <img
-          src={
-            movie.poster ||
-            "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          }
+          src={movie.poster || DEFAULT_IMAGE_URL}
           alt={movie.movie_name || "dummy"}
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src =
-              "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png";
+            e.target.src = DEFAULT_IMAGE_URL;
           }}
           className="w-full h-80 rounded-md"
         />

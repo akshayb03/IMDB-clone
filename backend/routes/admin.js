@@ -2,6 +2,7 @@ import express from 'express';
 import Movie from '../models/Movie.js';
 import Celebrity from '../models/Celebrity.js';
 import { v4 as uuidv4 } from 'uuid';
+import { DEFAULT_IMAGE_URL } from '../../utils/constants.js';
 
 const router = express.Router();
 
@@ -30,7 +31,7 @@ router.post('/movies', async (req, res) => {
         name: producerName,
         birthday: req.body.producer.birthday || null,
         death_year: req.body.producer.death_year || "",
-        image: req.body.producer.image || "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
+        image: req.body.producer.image || DEFAULT_IMAGE_URL
       });
       await producer.save();
     }

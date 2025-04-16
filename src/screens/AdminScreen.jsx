@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BASE_URL } from "../../utils/constants";
 
 const AdminScreen = () => {
   const [formData, setFormData] = useState({
@@ -28,7 +29,7 @@ const AdminScreen = () => {
         producer: JSON.parse(formData.producer),
       };
 
-      const response = await fetch("http://localhost:8000/api/admin/movies", {
+      const response = await fetch(`${BASE_URL}/api/admin/movies`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(parsedData),
@@ -52,8 +53,7 @@ const AdminScreen = () => {
       } else {
         alert(`Error: ${result.error || "Failed to save movie"}`);
       }
-    } catch (err) {
-      console.error("Submission error:", err);
+    } catch {
       alert("Invalid JSON format or server error");
     }
   };
@@ -81,7 +81,7 @@ const AdminScreen = () => {
               name={field}
               value={formData[field]}
               onChange={handleChange}
-              className="w-full p-2 border border-black rounded"
+              className="w-full p-2 border border-yellow-200 rounded"
               required={field !== "poster"}
             />
           </div>
@@ -93,7 +93,7 @@ const AdminScreen = () => {
             name="producer"
             value={formData.producer}
             onChange={handleChange}
-            className="w-full p-2 border border-black rounded h-32"
+            className="w-full p-2 border border-yellow-200 rounded h-32"
             placeholder='Example: {"name": "Christopher Nolan", "birthday": "1970-07-30"}'
             required
           />
@@ -105,16 +105,13 @@ const AdminScreen = () => {
             name="actors"
             value={formData.actors}
             onChange={handleChange}
-            className="w-full p-2 border border-black rounded h-32"
+            className="w-full p-2 border border-yellow-200 rounded h-32"
             placeholder='Example: [{"name": "Leonardo DiCaprio"}, {"name": "Joseph Gordon-Levitt"}]'
             required
           />
         </div>
 
-        <button
-          type="submit"
-          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
-        >
+        <button type="submit" className="px-4 py-2 rounded">
           Save Movie
         </button>
       </form>

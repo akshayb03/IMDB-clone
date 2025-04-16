@@ -2,13 +2,14 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard";
 import { format } from "date-fns";
+import { BASE_URL, DEFAULT_IMAGE_URL } from "../../utils/constants";
 
 const ActorScreen = () => {
   const { id } = useParams();
   const [actor, setActor] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:8000/api/celebrities/${id}`)
+    fetch(`${BASE_URL}/api/celebrities/${id}`)
       .then((res) => res.json())
       .then((data) => setActor(data));
   }, [id]);
@@ -20,17 +21,14 @@ const ActorScreen = () => {
       <div
         className="w-50 rounded-full mb-4 border-solid border-1"
         style={{
-          backgroundImage: `url("https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png")`,
+          backgroundImage: `url(${DEFAULT_IMAGE_URL})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "200px",
         }}
       >
         <img
-          src={
-            actor.image ||
-            "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          }
+          src={actor.image || DEFAULT_IMAGE_URL}
           alt={actor.name || "dummy"}
           className="w-40 rounded-full mb-4"
           style={{ width: "100%", height: 200 }}

@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import movieRoutes from './routes/movies.js';
 import celebrityRoutes from './routes/celebrity.js';
-import adminRoutes from './routes/admin.js';
+import loginRoutes from './routes/login.js' 
 
 dotenv.config();
 
@@ -32,7 +32,7 @@ app.use((req, res, next) => {
 
 app.use('/api/movies', movieRoutes);
 app.use('/api/celebrities', celebrityRoutes);
-app.use('/api/admin', adminRoutes);
+app.use('/api/login', loginRoutes);
 
 app.get('/', (req, res) => {
   res.send('Hello from the backend!');

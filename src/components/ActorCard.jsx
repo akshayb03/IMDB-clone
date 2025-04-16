@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { DEFAULT_IMAGE_URL } from "../../utils/constants";
 
 const ActorCard = ({ actor }) => {
   const navigate = useNavigate();
@@ -13,7 +14,7 @@ const ActorCard = ({ actor }) => {
       <div
         className="w-full h-full rounded-full border-solid border-1"
         style={{
-          backgroundImage: `url("https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png")`,
+          backgroundImage: `url(${DEFAULT_IMAGE_URL})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
@@ -21,10 +22,7 @@ const ActorCard = ({ actor }) => {
         }}
       >
         <img
-          src={
-            actor.image ||
-            "https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"
-          }
+          src={actor.image || DEFAULT_IMAGE_URL}
           className="w-full h-full rounded-full"
         />
       </div>

@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import MovieCard from "../components/MovieCard";
 import { ClipLoader } from "react-spinners";
+import { BASE_URL } from "../../utils/constants";
 
 const HomeScreen = () => {
   const [movies, setMovies] = useState([]);
@@ -13,7 +14,7 @@ const HomeScreen = () => {
       if (movies.length > 0) {
         setLoading(true);
       }
-      const res = await fetch(`http://localhost:8000/api/movies?page=${page}`);
+      const res = await fetch(`${BASE_URL}/api/movies?page=${page}`);
       const data = await res.json();
       setMovies((prev) => [...prev, ...data]);
     } catch (error) {
