@@ -6,53 +6,60 @@ function maxProfit(totalTime) {
   ];
 
   var store = [];
-
-  store[0] = {
-    profit: 0,
-    counts: { T: 0, P: 0, C: 0 }
-  };
+  for (let i = 0; i <= totalTime; i++) {
+    store[i] = {
+      maxProfit: 0,
+      combinations: [{ T: 0, P: 0, C: 0 }]
+    };
+  }
 
   for (var time = 1; time <= totalTime; time++) {
-
-    var bestCase = {
-      profit: store[time - 1] ? store[time - 1].profit : 0,
-      counts: store[time - 1]
-        ? { ...store[time - 1].counts }
-        : { T: 0, P: 0, C: 0 }
+    store[time] = {
+      maxProfit: store[time - 1].maxProfit,
+      combinations: store[time - 1].combinations.map(item => ({ ...item }))
     };
 
-    for (var i = 0; i < buildings.length; i++) {
+    for (let i = 0; i < buildings.length; i++) {
       var b = buildings[i];
-
       if (time >= b.buildTime) {
         var timeLeft = time - b.buildTime;
-        var past = store[timeLeft];
-
         var earned = timeLeft * b.earning;
-        var totalProfit = past.profit + earned;
+        var totalProfit = store[timeLeft].maxProfit + earned;
 
-        if (totalProfit > bestCase.profit) {
-          bestCase.profit = totalProfit;
-          bestCase.counts = {
-            T: past.counts.T,
-            P: past.counts.P,
-            C: past.counts.C
-          };
-          bestCase.counts[b.name]++;
+        if (totalProfit > store[time].maxProfit) {
+          store[time].maxProfit = totalProfit;
+          store[time].combinations = store[timeLeft].combinations.map(item => {
+            let newComb = { ...item };
+            newComb[b.name]++;
+            return newComb;
+          });
+        } else if (totalProfit === store[time].maxProfit) {
+          var newCombinations = store[timeLeft].combinations.map(item => {
+            let newComb = { ...item };
+            newComb[b.name]++;
+            return newComb;
+          });
+          newCombinations.forEach(newComb => {
+            var exists = store[time].combinations.some(existingComb =>
+              existingComb.T === newComb.T &&
+              existingComb.P === newComb.P &&
+              existingComb.C === newComb.C
+            );
+            if (!exists) {
+              store[time].combinations.push(newComb);
+            }
+          });
         }
-      } else {
-        console.log(`Not enough time to build ${b.name}`);
       }
     }
-
-    store[time] = bestCase;
-
   }
 
   var result = store[totalTime];
-  console.log(`\n Final Result for time = ${totalTime}`);
-  console.log(`Max Profit: $${result.profit}`);
-  console.log(`Buildings - T: ${result.counts.T}, P: ${result.counts.P}, C: ${result.counts.C}`);
+  console.log(`Max Earnings: $${result.maxProfit}`);
+  console.log("Possible Combinations:");
+  result.combinations.forEach(item => {
+    console.log(`T: ${item.T}, P: ${item.P}, C: ${item.C}`);
+  });
 }
 
-maxProfit(13);
+maxProfit(49);
