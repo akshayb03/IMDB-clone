@@ -33,7 +33,10 @@ const Modal = ({ onClose, onSuccess }) => {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center">
+    <div
+      className="fixed inset-0 flex items-center justify-center"
+      style={{ zIndex: 50 }}
+    >
       <div className="fixed inset-0 backdrop-blur-sm" onClick={onClose}></div>
 
       <div className="bg-[#242424] relative rounded-lg shadow-xl sm:my-8 sm:w-full sm:max-w-md">
