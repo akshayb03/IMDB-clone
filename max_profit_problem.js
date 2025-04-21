@@ -39,16 +39,27 @@ function maxProfit(totalTime) {
             newComb[b.name]++;
             return newComb;
           });
-          newCombinations.forEach(newComb => {
-            var exists = store[time].combinations.some(existingComb =>
-              existingComb.T === newComb.T &&
-              existingComb.P === newComb.P &&
-              existingComb.C === newComb.C
-            );
-            if (!exists) {
-              store[time].combinations.push(newComb);
+          for (let newComb of newCombinations) {
+            let valid = true;
+            let buildTimeUsed = newComb.T * 5 + newComb.P * 4 + newComb.C * 10;
+            let timeLeft = time - buildTimeUsed;
+            let contribution = timeLeft * b.earning;
+            
+            if (contribution <= 0) {
+              valid = false;
             }
-          });
+            
+            if (valid) {
+              var exists = store[time].combinations.some(existingComb =>
+                existingComb.T === newComb.T &&
+                existingComb.P === newComb.P &&
+                existingComb.C === newComb.C
+              );
+              if (!exists) {
+                store[time].combinations.push(newComb);
+              }
+            }
+          }
         }
       }
     }
