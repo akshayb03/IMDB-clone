@@ -14,6 +14,7 @@ const HomeScreen = () => {
   const [showModal, setShowModal] = useState(false);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [selectedMovieId, setSelectedMovieId] = useState(null);
+  const [hasMore, setHasMore] = useState(true);
 
   const handleDeleteMovie = async (movieId) => {
     try {
@@ -26,12 +27,18 @@ const HomeScreen = () => {
 
   const loadMovies = async () => {
     try {
+      if (!hasMore) return;
+
       if (movies.length > 0) {
         setLoading(true);
       }
       const res = await fetch(`${BASE_URL}/api/movies?page=${page}`);
       const data = await res.json();
-      setMovies((prev) => [...prev, ...data]);
+      if (data.length === 0) {
+        setHasMore(false);
+      } else {
+        setMovies((prev) => [...prev, ...data]);
+      }
     } catch (error) {
       console.error("Failed to load movies:", error);
     } finally {
@@ -39,6 +46,15 @@ const HomeScreen = () => {
       setInitialLoader(false);
     }
   };
+
+  const handleScroll = useCallback(() => {
+    if (!hasMore) return;
+    const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+
+    if (!loading && scrollTop + clientHeight >= scrollHeight - 100) {
+      setPage((prevPage) => prevPage + 1);
+    }
+  }, [loading, hasMore]);
 
   useEffect(() => {
     if (movies.length == 0) {
@@ -49,14 +65,6 @@ const HomeScreen = () => {
   useEffect(() => {
     loadMovies();
   }, [page]);
-
-  const handleScroll = useCallback(() => {
-    const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
-
-    if (!loading && scrollTop + clientHeight >= scrollHeight - 100) {
-      setPage((prevPage) => prevPage + 1);
-    }
-  }, [loading]);
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -106,6 +114,11 @@ const HomeScreen = () => {
           <div className="flex justify-center mb-8">
             <ClipLoader color="#36d7b7" loading={loading} size={50} />
           </div>
+        </div>
+      )}
+      {!hasMore && movies.length > 0 && (
+        <div className="text-center py-4 text-gray-500">
+          You've reached the end of the list
         </div>
       )}
     </>
