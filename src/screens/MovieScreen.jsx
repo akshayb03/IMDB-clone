@@ -6,6 +6,7 @@ import editIcon from "../assets/edit.png";
 import Modal from "../components/Modal";
 import EditModal from "../components/EditModal";
 import axios from "axios";
+import { format } from "date-fns";
 
 const MovieScreen = () => {
   const { id } = useParams();
@@ -94,10 +95,15 @@ const MovieScreen = () => {
             />
           </div>
           <div className="mt-6 ml-20 w-2xl">
-            <h1 className="text-3xl font-bold mb-2">{movie.movie_name}</h1>
-            <p className="mb-16">{movie.description}</p>
+            <h1 className="text-3xl font-bold mb-1">{movie.movie_name}</h1>
+            <p className="">{movie.description}</p>
+            <p className="text-yellow-200 mb-1">{movie.genre}</p>
+            <p className="mb-1 text-yellow-200">
+              {format(movie.release_date, "MMMM do, yyyy")}
+            </p>
+            <p className="mb-1 text-yellow-200">{movie.imdb_rating}/10</p>
             {movie.actors.length > 0 && (
-              <h2 className="mt-6 mb-2 text-xl font-semibold">Actors</h2>
+              <h2 className="mt-6 mb-1 text-xl font-semibold">Actors</h2>
             )}
             <div className="flex gap-4">
               {movie.actors.map((actor) => (

@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import { format } from "date-fns";
 
 const EditModal = ({ onClose, movie, onSave }) => {
   const [formData, setFormData] = useState({
     movie_name: movie.movie_name || "",
     release_date: movie.release_date
-      ? format(movie.release_date, "MMMM do, yyyy")
+      ? new Date(movie.release_date).toISOString().split("T")[0]
       : "",
     imdb_rating: movie.imdb_rating || "",
     description: movie.description || "",
