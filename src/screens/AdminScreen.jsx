@@ -23,10 +23,29 @@ const AdminScreen = () => {
     e.preventDefault();
 
     try {
+      const actorNames = formData.actors
+        .split(",")
+        .map((name) => name.trim())
+        .filter((name) => name.length > 0);
+
+      const actors = actorNames.map((name) => ({
+        name,
+        birthday: null,
+        death_year: "",
+        image: "",
+      }));
+
+      const producer = {
+        name: formData.producer.trim(),
+        birthday: null,
+        death_year: "",
+        image: "",
+      };
+
       const parsedData = {
         ...formData,
-        actors: JSON.parse(formData.actors),
-        producer: JSON.parse(formData.producer),
+        actors,
+        producer,
       };
 
       const response = await fetch(`${BASE_URL}/api/admin/movies`, {
@@ -46,15 +65,16 @@ const AdminScreen = () => {
           description: "",
           genre: "",
           duration: "",
-          actors: "[]",
-          producer: "{}",
+          actors: "",
+          producer: "",
           poster: "",
         });
       } else {
         alert(`Error: ${result.error || "Failed to save movie"}`);
       }
-    } catch {
-      alert("Invalid JSON format or server error");
+    } catch (error) {
+      console.error(error);
+      alert("Invalid input or server error");
     }
   };
 
@@ -88,25 +108,26 @@ const AdminScreen = () => {
         ))}
 
         <div>
-          <label className="block mb-1">Producer (JSON object):</label>
-          <textarea
+          <label className="block mb-1">Producer:</label>
+          <input
+            type="text"
             name="producer"
             value={formData.producer}
             onChange={handleChange}
-            className="w-full p-2 border border-yellow-200 rounded h-32"
-            placeholder='Example: {"name": "Christopher Nolan", "birthday": "1970-07-30"}'
+            className="w-full p-2 border border-yellow-200 rounded"
+            placeholder="Example: Christopher Nolan"
             required
           />
         </div>
 
         <div>
-          <label className="block mb-1">Actors (JSON array):</label>
+          <label className="block mb-1">Actors:</label>
           <textarea
             name="actors"
             value={formData.actors}
             onChange={handleChange}
             className="w-full p-2 border border-yellow-200 rounded h-32"
-            placeholder='Example: [{"name": "Leonardo DiCaprio"}, {"name": "Joseph Gordon-Levitt"}]'
+            placeholder="Example: Leonardo DiCaprio, Joseph Gordon-Levitt"
             required
           />
         </div>
